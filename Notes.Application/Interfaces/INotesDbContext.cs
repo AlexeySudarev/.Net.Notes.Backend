@@ -3,7 +3,7 @@ using Notes.Domain;
 
 namespace Notes.Application.Interfaces
 {
-    interface INotesDbContext
+    public interface INotesDbContext
     {
         DbSet<Note> Notes { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
