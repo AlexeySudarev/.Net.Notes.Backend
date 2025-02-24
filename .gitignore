@@ -1,0 +1,92 @@
+# Игнорировать файлы сборки и запуска
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+*.user
+*.suo
+*.cache
+*.ilk
+*.pdb
+*.lib
+*.exp
+*.sbr
+*.bsc
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# Игнорировать файлы пакетов NuGet
+[Nn]u[Pp]ackages/
+*.nupkg
+packages/
+
+# Игнорировать резервные файлы и временные файлы
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Игнорировать файлы тестовых запусков
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+
+# Игнорировать файлы ReSharper
+_ReSharper.*
+*.ReSharper
+*.DotSettings.user
+
+# Игнорировать файлы Rider
+.idea/
+*.idea
+*.iml
+
+# Игнорировать файлы Visual Studio Code
+.vscode/
+
+# Игнорировать файлы пользовательских настроек
+*.userprefs
+
+# Игнорировать файлы Azure
+*.pubxml
+*.publishsettings
+
+# Игнорировать файлы Unity (если используется)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/
+[Aa]ssets/[Ss]treamingAssets/
+[Aa]ssets/[Aa]sset[Ss]tore*
+
+# Игнорировать файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Игнорировать файлы macOS
+.DS_Store
+
+# Игнорировать файлы Linux
+*~
+
+# Игнорировать файлы Python (если используется)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорировать файлы Node.js (если используется)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Игнорировать файлы Docker (если используется)
+docker-compose.*.yml
+docker-compose.override.yml
+.env
